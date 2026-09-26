@@ -1,111 +1,99 @@
-<div align="center">
-  <a href="https://github.com/pcsdv0">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=pcsdv0&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pcsdv0&layout=compact&langs_count=7&theme=dracula"/>
-  </a>
-</div>
+# Olá, eu sou o Paulo César Vasconcelos
 
-### Olá, eu sou o Paulo César! 👋
-## Futuro Engenheiro de Dados
+Desenvolvedor Full Stack com foco em **Python/Django, Java/Spring Boot, React e Node.js**, atuando atualmente no desenvolvimento de sistemas de saúde para a **Fundação HEMOPE** (Hematologia e Hemoterapia de Pernambuco).
 
-Sou um estudante de Sistemas de Informação de Recife, Pernambuco, apaixonado por Engenharia de Dados, desenvolvimento Backend e Business Intelligence. Meu foco é transformar dados em soluções eficientes e inteligentes, resolvendo problemas reais com tecnologia.
-
-<p align="left">
-  <a href="mailto:pcsdv.si@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
-  <a href="https://www.linkedin.com/in/paulocvasconcelos/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-</p>
+- 🎓 Graduando em Sistemas de Informação — UNINASSAU (previsão: 2028)
+- 💼 Desenvolvedor de Software (Estágio) — Full Stack na Fundação HEMOPE
+- 📍 Olinda, PE — Brasil
+- 🌐 Inglês avançado (Business Working Proficiency)
+- 📫 Contato: pcsdv.si@gmail.com · [LinkedIn](https://www.linkedin.com/in/paulocvasconcelos)
 
 ---
 
-### 🛠️ Tecnologias e Ferramentas
+## Projetos em destaque
 
-<table>
-  <tr>
-    <td align="center"><strong>Backend</strong></td>
-    <td>
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="nodejs" width="40" height="40"/>
-      <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/>
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" alt="express" width="40" height="40"/>
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Dados & BI</strong></td>
-    <td>
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
-      <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/>
-      <img src="https://www.vectorlogo.zone/logos/microsoft_powerbi/microsoft_powerbi-icon.svg" alt="powerbi" width="40" height="40"/>
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/DAX_Logo.svg/1200px-DAX_Logo.svg.png" alt="dax" width="40" height="40"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Frontend</strong></td>
-    <td>
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html" width="40" height="40"/>
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css" width="40" height="40"/>
-        <img src="https://cdn.worldvectorlogo.com/logos/handlebars-1.svg" alt="handlebars" width="40" height="40"/>
-    </td>
-  </tr>
-    <tr>
-    <td align="center"><strong>Ferramentas</strong></td>
-    <td>
-      <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="github" width="40" height="40"/>
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vscode" width="40" height="40"/>
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-plain.svg" alt="ubuntu" width="40" height="40"/>
-    </td>
-  </tr>
-</table>
+### 🩸 Sistema de Agendamento Online — Fundação HEMOPE
+Sistema de agendamento de doação de sangue desenvolvido por completo por mim, hoje em produção em [agendamentohemope.pe.gov.br](https://agendamentohemope.pe.gov.br), processando mais de **700 agendamentos mensais** em média.
+- Stack: Django, MySQL, hospedado em Windows Server (VM gerenciada via ATI)
+- Hardening de segurança (CSRF, CORS, rotação de segredos), migração de banco (SQLite → MySQL) sem interrupção do serviço
+- Regras de negócio de elegibilidade entre doações, agenda semanal em formato kanban
+
+### 💳 Carteira Digital do Doador
+Aplicativo mobile que dá ao doador acesso à carteirinha de doação direto pelo celular.
+- Stack: React Native + Node.js, com gamificação (níveis Bronze/Prata/Ouro/Platina) e geolocalização de hemocentros
+- Em fase de revisão de segurança e publicação nas lojas (iOS/Android)
+
+### 🏥 Portal do Paciente — Fundação HEMOPE *(em desenvolvimento)*
+Portal web para acesso remoto a exames e laudos, trazendo também a carteirinha digital de paciente do HEMOPE (distinta da carteirinha de doador).
+- Integração com sistema legado (Oracle/MV) via API intermediária, respeitando isolamento de rede e conformidade LGPD
+- Arquitetura em avaliação entre monolito Django, BFF Node.js/FastAPI ou BFF Node.js/Spring Boot
+
+### 🗂️ Portal de Prontuário Médico Unificado
+Plataforma web full-stack para interoperabilidade de registros médicos e acesso centralizado a dados clínicos.
+- Stack: Node.js, Express, MySQL
+- Autenticação via JWT, controle de acesso por níveis de usuário (middlewares), conformidade LGPD
+
+### 📊 Pipeline de Dados & Dashboard de Vendas
+Projeto de BI e Engenharia de Dados cobrindo o fluxo completo, da extração (ETL) à visualização de indicadores.
+- Stack: Python (Faker para geração de dados), SQL, Power BI (medidas DAX)
+
+### 🔐 Escudo Digital — Educação em Cibersegurança
+Iniciativa de extensão (UNINASSAU) para letramento digital, traduzindo conceitos técnicos (criptografia, engenharia social, malware, LGPD) em simulações práticas e laboratórios de gestão de vulnerabilidades e 2FA.
 
 ---
 
-### 🚀 Meus Principais Projetos
+## Stack técnica
 
-<table>
-<tr>
-<td width="50%">
-<h3 align="center">Portal de Prontuário Médico Unificado</h3>
-<div align="center">
-[cite_start]<p>Plataforma web full-stack para unificar registros médicos entre hospitais e clínicas, com foco em segurança (JWT, LGPD) e continuidade do cuidado. [cite: 46, 54]</p>
-[cite_start]<p><strong>Tecnologias:</strong> Node.js, Express, MySQL, Handlebars, JWT. [cite: 54, 58]</p>
-<a href="https://github.com/pcsdv0/PORTAL-DE-PRONTUARIO-MEDICO-UNIFICADO-NACIONAL" target="_blank">
-<img src="https://img.shields.io/badge/Ver%20no%20GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
-</a>
-</div>
-</td>
-<td width="50%">
-<h3 align="center">Dashboard de Vendas Interativo</h3>
-<div align="center">
-[cite_start]<p>Projeto de BI com automação em Python para geração de dados, armazenamento em MySQL e criação de um dashboard profissional no Power BI para análise de KPIs de vendas. [cite: 52]</p>
-[cite_start]<p><strong>Tecnologias:</strong> Python, MySQL, Power BI. [cite: 52]</p>
-<a href="https://github.com/pcsdv0/DASHBOARD-VENDAS-POWERBI" target="_blank">
-<img src="https://img.shields.io/badge/Ver%20no%20GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
-</a>
-</div>
-</td>
-</tr>
-<tr>
-<td width="50%">
-<h3 align="center">API de Produtos (RESTful)</h3>
-<div align="center">
-[cite_start]<p>API RESTful para gerenciamento de produtos com sistema de autenticação JWT, operações CRUD completas, documentação OpenAPI e testes automatizados com Pytest. [cite: 53]</p>
-[cite_start]<p><strong>Tecnologias:</strong> Python, Flask, SQLite, JWT, Pytest. [cite: 53]</p>
-<a href="https://github.com/pcsdv0/API-PRODUTOS-FLASK" target="_blank"> <img src="https://img.shields.io/badge/Ver%20no%20GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
-</a>
-</div>
-</td>
-<td width="50%">
-<h3 align="center">Sistema de Cadastro de Clientes</h3>
-<div align="center">
-<p>Sistema Web para cadastro, leitura, atualização e exclusão (CRUD) de clientes, construído com Python e Itkinter para a interface gráfica e banco de dados relacional.</p>
-<p><strong>Tecnologias:</strong> Python, Itkinter, SQLite.</p>
-<a href="https://github.com/pcsdv0/SISTEMA-DE-CADASTRO-DE-CLIENTES-Desk" target="_blank"> <img src="https://img.shields.io/badge/Ver%20no%20GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
-</a>
-</div>
-</td>
-</tr>
-</table>
+**Linguagens & Frameworks**
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
+
+**Dados, Nuvem & Infraestrutura**
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+
+**Metodologias & Qualidade**
+![Scrum](https://img.shields.io/badge/Scrum-6DB33F?style=flat&logo=scrumalliance&logoColor=white)
+![JUnit](https://img.shields.io/badge/JUnit-25A162?style=flat&logo=junit5&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white)
 
 ---
+
+## Certificações
+
+- Google Cloud Fundamentals: Core Infrastructure
+- Google Cybersecurity Professional Certificate
+- Google Data Analytics Professional Certificate
+- Google Business Intelligence Professional Certificate
+- Itaú Unibanco / DIO — Desenvolvimento Java com Inteligência Artificial
+- Santander Open Academy — Desenvolvimento Back-End com Python
+- BairesDev — Fundamentos de Machine Learning
+- Scrum Fundamentals Certified (SFC™)
+
+---
+
+## GitHub Stats
+
+![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=pcsdv0&show_icons=true&theme=default&hide_title=false)
+![Linguagens mais usadas](https://github-readme-stats.vercel.app/api/top-langs/?username=pcsdv0&layout=compact&theme=default)
+
+---
+
+## Contato
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paulocvasconcelos)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:pcsdv.si@gmail.com)
